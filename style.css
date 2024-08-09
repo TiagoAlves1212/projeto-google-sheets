@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+}
+
+form {
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(45, 44, 44, 0.298);
+    border-radius: 5px;
+    color: rgba(111, 106, 106, 0.51);
+    position: relative;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.426);
+}
+
+form h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px 0 60px 20px;
+}
+
+input, #box {
+    height: 40px;
+    width: 80%;
+    margin-bottom: 6px;
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.444);
+    outline: 1px solid rgba(128, 128, 128, 0.282);
+    background-color: rgba(63, 59, 59, 0.438);
+}
+
+#box, textarea {
+    height: 20%;
+    margin-top: 10px;
+    width: 80%;
+    position: relative;
+    text-align: justify;
+    overflow: auto;
+    background-color: rgba(63, 59, 59, 0.438);
+}
+
+textarea::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+textarea::-webkit-scrollbar-track {
+    background-color: rgb(57, 56, 56);
+    color: white;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: #007BFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+    background: #0056b3;
+}
+
+textarea::-webkit-scrollbar-corner {
+    background: #f1f1f1;   
+}
+
+input[type="submit"] {
+    text-align: center;
+    margin-top: 30px;
+    transform: translateX(-150px);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(35, 35, 194, 0.824);
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(78, 78, 237, 0.824);
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
