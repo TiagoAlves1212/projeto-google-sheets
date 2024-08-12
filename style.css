@@ -97,3 +97,37 @@ input[type="submit"]:hover {
     cursor: pointer;
     transition: .2s ease-in-out;
 }
+
+@media (max-width: 360px) {
+    form {
+        width: 100vw;
+        height: 100vh;
+        margin: 5px;
+    }
+
+    input[type="submit"] {
+        transform: translateX(0);
+    }
+}
+@media (max-width: 393px) {
+    form {
+        width: 100vw;
+        height: 100vh;
+        margin: 5px;
+    }
+
+    input[type="submit"] {
+        transform: translateX(0);
+    }
+}
+@media (max-width: 480px) {
+    form {
+        width: 100vw;
+        height: 100vh;
+        margin: 5px;
+    }
+
+    input[type="submit"] {
+        transform: translateX(0);
+    }
+}
