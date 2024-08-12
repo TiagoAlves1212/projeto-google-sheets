@@ -81,9 +81,10 @@ textarea::-webkit-scrollbar-corner {
 }
 
 input[type="submit"] {
+    width: 200px;
     text-align: center;
     margin-top: 30px;
-    transform: translateX(-150px);
+    transform: translateX(-47%);
     padding: 10px 15px;
     border-radius: 10px;
     border: none;
